@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/echo" method="POST">
+    账号:<input type="text" placeholder="请输入想注册的账号">
+    <br>
+    密码:<input type="password" placeholder="请设置您账号的登入密码">
+    <br>
+    重复密码:<input type="password" placeholder="再次输入密码">
+    <br>
+    验证码:<input type="text" placeholder="请输入六位验证码">
+    <br>
+    性别：
+    <input type="radio" name="gender" value="Male">男
+    <input type="radio" name="gender" value="Female">女
+    <br>
+    玩过什么游戏：
+    <input type="checkbox" name="game" value="LOL">英雄联盟
+    <input type="checkbox" name="game" value="CF">穿越火线
+    <input type="checkbox" name="game" value="WOW">魔兽世界
+    <input type="checkbox" name="game" value="SWXF">守望先锋
+    <br>
+    <select name="year" id="year">
+      <option value="年" selected>年</option>
+    </select>
+    <br>
+    <input type="submit", name="按钮"， value="按钮">
+    <input type="submit", name="提交"， value="提交">
+    <input type="submit", name="重置"， value="重置">
+  </form>
+</body>
+</html>
